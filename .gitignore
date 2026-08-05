@@ -1,0 +1,18 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Anaconda / JupyterLab
+anaconda_projects/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
