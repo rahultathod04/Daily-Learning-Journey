@@ -18,11 +18,11 @@ I'm documenting my journey of learning **Python** and **Data Structures & Algori
 
 # 📅 Daily Progress Tracker
 
-| Day | Date | Python | DSA | Status | Notes |
-|-----|------|---------|-----|--------|-------|
-| 001 | 03-Aug-2026 | ✅ Variables & Data Types | ⏳ | 🟢 Completed | Learned variables, data types, and wrote notes |
-
----
+| Day | Date | Python |
+|-----|------|--------|
+| 001 | 03-Aug-2026 | ✅ Variables & Data Types |
+| 002 | 04-Aug-2026 | ✅ Strings & Conditional Statements |
+| 003 | 05-Aug-2026 | ✅ Lists & Tuples |
 
 ## 📂 Repository Structure
 
