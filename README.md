@@ -23,6 +23,7 @@ I'm documenting my journey of learning **Python** and **Data Structures & Algori
 | 001 | 03-Aug-2026 | ✅ Variables & Data Types |
 | 002 | 04-Aug-2026 | ✅ Strings & Conditional Statements |
 | 003 | 05-Aug-2026 | ✅ Lists & Tuples |
+| 004 | 06-Aug-2026 | ✅ Dictionary & Sets|
 
 ## 📂 Repository Structure
 
