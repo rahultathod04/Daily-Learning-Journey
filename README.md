@@ -24,6 +24,7 @@ I'm documenting my journey of learning **Python** and **Data Structures & Algori
 | 002 | 04-Aug-2026 | ✅ Strings & Conditional Statements |
 | 003 | 05-Aug-2026 | ✅ Lists & Tuples |
 | 004 | 06-Aug-2026 | ✅ Dictionary & Sets|
+| 005 | 07-Aug-2026 | ✅ Loops_|
 
 ## 📂 Repository Structure
 
