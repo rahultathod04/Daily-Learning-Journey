@@ -26,6 +26,7 @@ I'm documenting my journey of learning **Python** and **Data Structures & Algori
 | 004 | 06-Aug-2026 | ✅ Dictionary & Sets|
 | 005 | 07-Aug-2026 | ✅ Loops_|
 | 006 | 08-Aug-2026 | ✅ Functions & Recursion|
+| 007 | 09-Aug-2026 | ✅ File Input/Output|
 
 ## 📂 Repository Structure
 
