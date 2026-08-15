@@ -29,6 +29,8 @@ I'm documenting my journey of learning **Python** and **Data Structures & Algori
 | 007 | 09-Aug-2026 | ✅ File Input/Output|
 | 008 | 10-Aug-2026 | ✅ OOP_part1|
 | 009 | 11-Aug-2026 | ✅ OOP_part2|
+| 010 | 12-Aug-2026 | ✅ OOP_part3|
+| 010 | 15-Aug-2026 | ✅ Python Fundamentals Project|
 ## 📂 Repository Structure
 
 ```text
