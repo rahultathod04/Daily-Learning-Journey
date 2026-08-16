@@ -1,0 +1,110 @@
+{
+  "books": [
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "101",
+      "is_available": true
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "102",
+      "is_available": true
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "103",
+      "is_available": true
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "104",
+      "is_available": true
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "isbn": "105",
+      "is_available": true
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "isbn": "106",
+      "is_available": true
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "isbn": "107",
+      "is_available": true
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "108",
+      "is_available": true
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "isbn": "109",
+      "is_available": true
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "isbn": "110",
+      "is_available": true
+    },
+    {
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "isbn": "111",
+      "is_available": true
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "isbn": "112",
+      "is_available": true
+    },
+    {
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "isbn": "113",
+      "is_available": true
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "isbn": "114",
+      "is_available": true
+    },
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "isbn": "115",
+      "is_available": true
+    }
+  ],
+  "members": [
+    {
+      "name": "Rahul Tathod",
+      "member_id": "S1",
+      "type": "student",
+      "borrowed_books": []
+    },
+    {
+      "name": "Anirudh Pathak",
+      "member_id": "F1",
+      "type": "faculty",
+      "borrowed_books": []
+    }
+  ],
+  "next_student_id": 2,
+  "next_faculty_id": 2
+}
