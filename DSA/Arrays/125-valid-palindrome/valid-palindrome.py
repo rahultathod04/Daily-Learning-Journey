@@ -1,6 +1,7 @@
 class Solution:
     def isPalindrome(self, s):
         left = 0
+        # Python implementation
         right = len(s) - 1
 
         while left < right:
