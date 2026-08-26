@@ -4,12 +4,6 @@ Welcome to my public learning repository!
 
 I'm documenting my journey of learning **Python** and **Data Structures & Algorithms (DSA)** every day. My goal is to build a strong programming foundation while creating free, beginner-friendly notes for anyone who wants to learn alongside me.
 
-```text
-Python/
-DSA/
-Resources/
-README.md
----
 
 ## 🎯 Goals
 
