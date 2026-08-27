@@ -1,7 +1,7 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-         std::vector<int> char_map(128, -1);
+        vector<int> char_map(128, -1);
         int left = 0;
         int max_len = 0;
         
