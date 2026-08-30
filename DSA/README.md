@@ -5,12 +5,12 @@
 | Day    | No. of Que | Question                                                                             | Done             |
 | ------ | ---------: | ------------------------------------------------------------------------------------ | ---------------- |
 | Day 1  |          1 | Second Largest Element in an Array (Arrays • Traversal)                              | - [done] 2026-08-24 |
-| Day 2  |          1 | Check if Array is Sorted (Arrays • Traversal)                                        | - [ ] 2026-08-25 |
-| Day 3  |          2 | Remove Duplicates from Sorted Array (Arrays • Two Pointer)                           | - [ ] 2026-08-26 |
-| Day 4  |          2 | Move Zeroes to End (Arrays • Two Pointer)                                            | - [ ] 2026-08-27 |
-| Day 5  |          2 | Left Rotate Array by One Place (Arrays • Rotation)                                   | - [ ] 2026-08-28 |
-| Day 6  |          2 | Rotate Array by K Places (Arrays • Reversal Algorithm)                               | - [ ] 2026-08-29 |
-| Day 7  |          2 | Best Time to Buy and Sell Stock (Arrays • Prefix Minimum)                            | - [ ] 2026-08-30 |
+| Day 2  |          1 | Check if Array is Sorted (Arrays • Traversal)                                        | - [done] 2026-08-25 |
+| Day 3  |          2 | Remove Duplicates from Sorted Array (Arrays • Two Pointer)                           | - [done] 2026-08-26 |
+| Day 4  |          2 | Move Zeroes to End (Arrays • Two Pointer)                                            | - [done] 2026-08-27 |
+| Day 5  |          2 | Left Rotate Array by One Place (Arrays • Rotation)                                   | - [done] 2026-08-28 |
+| Day 6  |          2 | Rotate Array by K Places (Arrays • Reversal Algorithm)                               | - [done] 2026-08-29 |
+| Day 7  |          2 | Best Time to Buy and Sell Stock (Arrays • Prefix Minimum)                            | - [done] 2026-08-30 |
 | Day 8  |          2 | Majority Element (Arrays • Moore's Voting Algorithm)                                 | - [ ] 2026-08-31 |
 | Day 9  |          3 | Kadane's Algorithm (Maximum Subarray Sum) (Arrays • Kadane's Algorithm)              | - [ ] 2026-09-01 |
 | Day 10 |          3 | Rearrange Array by Sign (Arrays • Index Manipulation)                                | - [ ] 2026-09-02 |
