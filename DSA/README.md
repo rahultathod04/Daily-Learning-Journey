@@ -11,7 +11,7 @@
 | Day 5  |          2 | Left Rotate Array by One Place (Arrays • Rotation)                                   | - [done] 2026-08-28 |
 | Day 6  |          2 | Rotate Array by K Places (Arrays • Reversal Algorithm)                               | - [done] 2026-08-29 |
 | Day 7  |          2 | Best Time to Buy and Sell Stock (Arrays • Prefix Minimum)                            | - [done] 2026-08-30 |
-| Day 8  |          2 | Majority Element (Arrays • Moore's Voting Algorithm)                                 | - [ ] 2026-08-31 |
+| Day 8  |          2 | Majority Element (Arrays • Moore's Voting Algorithm)                                 | - [done] 2026-08-31 |
 | Day 9  |          3 | Kadane's Algorithm (Maximum Subarray Sum) (Arrays • Kadane's Algorithm)              | - [ ] 2026-09-01 |
 | Day 10 |          3 | Rearrange Array by Sign (Arrays • Index Manipulation)                                | - [ ] 2026-09-02 |
 | Day 11 |          3 | Two Sum (Arrays • HashMap)                                                           | - [ ] 2026-09-03 |
