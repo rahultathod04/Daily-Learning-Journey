@@ -7,9 +7,7 @@ class Solution(object):
         for i in range(n):
             if(nums[i]==1):
                 curr +=1
-
-                if(curr>ans):
-                    ans = curr
+                ans = max(ans, curr)
             else:
                     curr=0
         return ans
