@@ -5,8 +5,8 @@ class Solution(object):
 
         for i in range(n):
             if(nums[i]!=0):
-                nums[j]= nums[i]
+                nums[j]=nums[i]
                 j+=1
-        for i in range(j,n):
-            nums[i] = 0
-            
+        while(j<n):
+            nums[j]=0
+            j+=1
