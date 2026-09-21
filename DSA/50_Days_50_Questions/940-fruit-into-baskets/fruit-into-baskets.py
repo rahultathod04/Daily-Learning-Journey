@@ -13,11 +13,10 @@ class Solution(object):
                 count[f] = 1
             
             while(len(count)>2):
-                lf = fruits[l]
-                count[lf] -= 1
+                count[fruits[l]]-=1
 
-                if count[lf] == 0:
-                    del count[lf]
+                if count[fruits[l]] == 0:
+                    del count[fruits[l]]
 
                 l+=1
 
