@@ -1,18 +1,17 @@
 class Solution:
     def maxArea(self, height):
-       n = len(height)
-       l = 0
-       r = n-1
-       ans = 0
+        n = len(height)
+        max_w = 0
+        left = 0
+        right = n-1
 
-       for i in range(n):
-        w = r-l
-        h = min(height[l], height[r])
-        area = w*h
-        ans = max(area, ans)
-
-        if(height[l]<height[r]):
-            l+=1
-        else:
-            r-=1
-       return ans
+        while(left<right):
+            h = min(height[left], height[right])
+            w = right - left 
+            area = h*w
+            max_w = max(max_w, area)
+            if(height[left]<height[right]):
+                left+=1
+            else:
+                right-=1
+        return max_w
