@@ -1,23 +1,19 @@
 class Solution:
     def sortColors(self, nums):
         n = len(nums)
-        low = 0
-        mid = 0
-        high = n-1 
+        l = 0
+        m = 0
+        h = n-1
+        while m<=h:
+            if(nums[m]==0):
+                nums[m] = nums[l]
+                nums[l] = 0
+                l+=1
+                m+=1
 
-        while (mid <= high):
+            elif(nums[m]==1):
+                m+=1
 
-            if(nums[mid] == 0):
-                nums[mid] = nums[low]
-                nums[low] = 0
-                low+=1
-                mid+=1
-
-            elif(nums[mid] == 1):
-                mid+=1
-
-            else:
-                nums[mid] = nums[high]
-                nums[high] = 2
-                high -=1
-   
+            elif(nums[m]==2):
+                nums[m], nums[h] = nums[h], nums[m]
+                h-=1
