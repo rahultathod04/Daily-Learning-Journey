@@ -1,23 +1,39 @@
 class Solution(object):
+    def kmax(self, nums, n):
+        sum = nums[0]
+        max_sum = nums[0]
+
+        for i in range(1,n):
+            sum = max(sum+nums[i], nums[i])
+            max_sum = max(max_sum, sum)
+        return max_sum
+    def kmin(self, nums, n):
+        sum = nums[0]
+        min_sum = nums[0]
+
+        for i in range(1,n):
+            sum = min(sum+nums[i], nums[i])
+            min_sum = min(min_sum, sum)
+        return min_sum
+
     def maxSubarraySumCircular(self, nums):
         n = len(nums)
-    # right_max[i] = max suffix sum starting at index >= i
-        right_max = [0] * n
-        suffix = nums[-1]
-        right_max[-1] = suffix
-        for i in range(n - 2, -1, -1):
-            suffix += nums[i]
-            right_max[i] = max(right_max[i + 1], suffix)
+        #1
+        Sum = sum(nums)
+        min_sum = self.kmin(nums, n)
 
-        best = kadane_best = cur = nums[0]
-        for x in nums[1:]:
-            cur = max(x, cur + x)
-            kadane_best = max(kadane_best, cur)
+        cir_max = Sum - min_sum
 
-        prefix = 0
-        for i in range(n - 2):          # leave room so suffix starts at i+2 or later
-            prefix += nums[i]
-            best = max(best, prefix + right_max[i + 2])
+        #2
+        max_sum = self.kmax(nums, n)
 
-        return max(kadane_best, best)    
+        if(max_sum>0):
+            return max(max_sum, cir_max)
+        return max_sum
+
+        #
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         
