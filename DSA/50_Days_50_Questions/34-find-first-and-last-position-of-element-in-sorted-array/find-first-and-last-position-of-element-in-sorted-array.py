@@ -1,37 +1,35 @@
 class Solution(object):
-    def Left(self, nums, target, n):
-        left_most = -1
-        l=0
-        r=n-1
+    def LEFT(self, nums, t, n):
+        l_m = -1
+        l = 0
+        r = n-1
         while l<=r:
-            mid = l+(r-l)//2
-            if(nums[mid]==target):
-                left_most = mid
-                r = mid-1
-            elif(nums[mid]<target):
-                l = mid+1
+            m = l+(r-l)/2
+            if(nums[m]==t):
+                l_m = m
+                r = m-1
+            elif(nums[m]<t):
+                l=m+1
             else:
-                r =mid-1
-        return left_most
-    def Right(self, nums, target, n):
-        right_most = -1
-        l=0
-        r=n-1
+                r=m-1
+        return l_m
+    
+    def RIGHT(self, nums, t, n):
+        r_m = -1
+        l = 0
+        r = n-1
         while l<=r:
-            mid = l+(r-l)//2
-            if(nums[mid]==target):
-                right_most = mid
-                l = mid+1
-            elif(nums[mid]<target):
-                l = mid+1
+            m = l+(r-l)/2
+            if(nums[m]==t):
+                r_m = m
+                l = m+1
+            elif(nums[m]<t):
+                l=m+1
             else:
-                r =mid-1
-        return right_most
-
+                r=m-1
+        return r_m
     def searchRange(self, nums, target):
         n = len(nums)
-
-        left_most = self.Left(nums, target, n)
-        right_most = self.Right(nums, target, n)
-
-        return [left_most, right_most]     
+        l = self.LEFT(nums, target, n)
+        r = self.RIGHT(nums, target, n)
+        return [l,r]
