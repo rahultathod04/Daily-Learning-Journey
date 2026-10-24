@@ -10,26 +10,11 @@ I'm documenting my journey of learning **Python** and **Data Structures & Algori
 - 🐍 Learn Python from Beginner → Advanced
 - 🧠 Solve DSA problems consistently
 - ✍️ Write clear notes in my own words
-- 📚 Help beginners learn programming
 - 📅 Stay consistent through daily practice
 
 ---
 
-# 📅 Daily Progress Tracker
 
-| Day | Date | Python |
-|-----|------|--------|
-| 001 | 03-Aug-2026 | ✅ Variables & Data Types |
-| 002 | 04-Aug-2026 | ✅ Strings & Conditional Statements |
-| 003 | 05-Aug-2026 | ✅ Lists & Tuples |
-| 004 | 06-Aug-2026 | ✅ Dictionary & Sets|
-| 005 | 07-Aug-2026 | ✅ Loops_|
-| 006 | 08-Aug-2026 | ✅ Functions & Recursion|
-| 007 | 09-Aug-2026 | ✅ File Input/Output|
-| 008 | 10-Aug-2026 | ✅ OOP_part1|
-| 009 | 11-Aug-2026 | ✅ OOP_part2|
-| 010 | 12-Aug-2026 | ✅ OOP_part3|
-| 011| 15-Aug-2026 | ✅ Python Fundamentals Project|
 ## 📂 Repository Structure
 
 ```text

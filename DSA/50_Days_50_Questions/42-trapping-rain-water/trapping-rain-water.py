@@ -1,22 +1,28 @@
 class Solution(object):
     def trap(self, height):
-
-        
+        if not height:
+            return 0
+            
         n = len(height)
-        lmax = [0]*n
-        rmax = [0]*n
-        ans = 0
-
-        lmax[0] = height[0]
-        rmax[n-1] = height[n-1]
-
-        for i in range(1,n):
-            lmax[i] = max( lmax[i-1], height[i])
-
-        for i in range(n-2,-1,-1):
-            rmax[i] = max(rmax[i+1], height[i])
+        total_water = 0
+        left = 0
+        right = n - 1
         
-        for i in range(n):
-            ans += min(rmax[i], lmax[i]) - height[i]
-
-        return ans
+        left_max = 0
+        right_max = 0
+        
+        while left < right:
+            if height[left] < height[right]:
+                if height[left] >= left_max:
+                    left_max = height[left]
+                else:
+                    total_water += left_max - height[left]
+                left += 1
+            else:
+                if height[right] >= right_max:
+                    right_max = height[right]
+                else:
+                    total_water += right_max - height[right]
+                right -= 1
+                
+        return total_water
