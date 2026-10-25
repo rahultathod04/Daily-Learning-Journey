@@ -1,5 +1,10 @@
 class Solution(object):
     def shipWithinDays(self, weights, days):
+        if days==1:
+            return sum(weights) 
+        if days==len(weights):
+            return max(weights) 
+            
         l = max(weights)
         r = sum(weights)
 
